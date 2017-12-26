@@ -2,7 +2,9 @@
 
 I am aware that data is crucial part of research, but not always very easy to find, especially in huge volume. In order to facilitate the academic research, I share this corpus which was collected as part of my thesis in <a href="http://uottawa.ca" target="_blank">University of Ottawa</a>.
 
-The corpus consist of more than 65K of Twitter users in Canada (more will be added soon) and includes many Canadian cities across the country. The more details and the distrubtion can be found below:
+The corpus consist of more than 65K of Twitter users with various type of information including user id, screen name, name, gender, timezone, user declared location, city, province and bounding box. (Please note that Twitter doesn't provide gender information of user through the standard API. I used <a href="http://api.namsor.com/" target="_blank">Namsor API</a> to detect the gender from the name.) 
+
+The users in dataset are all around the country, but mainly from the 8 biggest cities in Canada. The more details and the distrubtion can be found below:
 
 <h2> Dataset specifications </h2>
 <ul>
@@ -28,5 +30,5 @@ The corpus consist of more than 65K of Twitter users in Canada (more will be add
 </table>
 
 
-<b>P.S: If you use this data for the academic purpose, please do not forget the cite this link in your paper.</b>
+<b>P.S: If you use this data for the academic purpose, please do not forget to cite/include this link in your paper.</b>
 
