@@ -15,7 +15,7 @@ The users in dataset are all around the country, but mainly from the 8 biggest c
 <li><b>Format:</b> JSON</li>
 </ul>
 
-<h2>Distribution</h2>
+<h2>Distribution of the users by city</h2>
 <table>
 <tr><th>City</th><th>Number of users</th></tr>
 <tr><td>Vancouver</td><td>8165</td></tr>
