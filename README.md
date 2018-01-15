@@ -9,7 +9,7 @@ The users in dataset are all around the country, but mainly from the 8 biggest c
 <h2> Dataset specifications </h2>
 <ul>
 <li><b>Version:</b> 1.0 </li>
-<li><b>Collection period:</b> September 1 and December 26</li>
+<li><b>Collection period:</b> September 1 and January 12</li>
 <li><b>Number of users:</b> 71.963
 <li><b>Size:</b> 31.5 MB</b></li>
 <li><b>Format:</b> JSON</li>
