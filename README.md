@@ -10,7 +10,7 @@ The users in dataset are all around the country, but mainly from the 8 biggest c
 <ul>
 <li><b>Version:</b> 1.0 </li>
 <li><b>Collection period:</b> September 1 and December 26</li>
-<li><b>Number of users:</b> 66.584
+<li><b>Number of users:</b> 71.963
 <li><b>Size:</b> 31.5 MB</b></li>
 <li><b>Format:</b> JSON</li>
 </ul>
@@ -18,15 +18,14 @@ The users in dataset are all around the country, but mainly from the 8 biggest c
 <h2>Distribution of the users by city</h2>
 <table>
 <tr><th>City</th><th>Number of users</th></tr>
-<tr><td>Vancouver</td><td>8165</td></tr>
-<tr><td>Toronto</td><td>7851</td></tr>
-<tr><td>Montréal</td><td>7405</td></tr>
-<tr><td>Ottawa</td><td>7050</td></tr>
-<tr><td>Edmonton</td><td>5321</td></tr>
-<tr><td>Winnipeg</td><td>4324</td></tr>
+<tr><td>Vancouver</td><td>9601</td></tr>
+<tr><td>Toronto</td><td>7849</td></tr>
+<tr><td>Montréal</td><td>8869</td></tr>
+<tr><td>Ottawa</td><td>7926</td></tr>
+<tr><td>Edmonton</td><td>6038</td></tr>
+<tr><td>Winnipeg</td><td>4877</td></tr>
 <tr><td>Calgary</td><td>3604</td></tr>
 <tr><td>Halifax</td><td>903</td></tr>
-<tr><td>Others</td><td>21961</td></tr>
 </table>
 
 
