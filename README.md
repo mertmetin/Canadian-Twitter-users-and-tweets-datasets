@@ -4,7 +4,7 @@ Data is crucial part of research, but not always very easy to find, especially i
 Both datasets contain users — and tweets — from census metrpolitan areas and agglomerations in Canada with population more than 100.000. The full list of CMAs and CAs can be found <a href="https://en.wikipedia.org/wiki/List_of_census_metropolitan_areas_and_agglomerations_in_Canada">here</a>.
 
 <h2>Twitter-CAD-Users</h2>
-Twitter-CAD-Users — as the name suggests – includes Canadian Twitter users with their tweets, up to last 100 friends and followers and bunch of metadata information about users (e.g. tweets, friends and followers count and gender). We collected this dataset to geolocate users from their tweets as well as their social graph (i.e. friends and followers). Furthermore, each user tagged with a location (i.e. groundtruth location) which is the user declared location in Twitter profile. 
+Twitter-CAD-Users — as the name suggests – includes Canadian Twitter users with their tweets, up to last 100 friends and followers <sup>1</sup> and bunch of metadata information about users (e.g. tweets, friends and followers count and gender). We collected this dataset to geolocate users from their tweets as well as their social graph (i.e. friends and followers). Furthermore, each user tagged with a location (i.e. groundtruth location) which is the user declared location in Twitter profile. 
 
 <ul>
 <li><b>Collection period:</b> January 10 and January 25, 2019</li>
