@@ -17,7 +17,7 @@ Twitter-CAD-Users — as the name suggests – includes Canadian Twitter users w
 </ul>
 
 <h2>Twitter-CAD-Tweets</h2>
-Twitter-CAD-Tweets from Canadian Twitter users. We collected this dataset to geolocate tweets from their context. Each tweet is geotagged with a latitute and longitute pairs (i.e. bounding box).
+Twitter-CAD-Tweets includes tweets from Canadian Twitter users. We collected this dataset to geolocate tweets from their context. Each tweet is geotagged with a latitute and longitute pairs (i.e. bounding box).
 
 <ul>
 <li><b>Collection period:</b> March 25 and April 5, 2019</li>
