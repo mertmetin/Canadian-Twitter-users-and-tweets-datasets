@@ -26,7 +26,7 @@ Twitter-CAD-Tweets includes tweets from Canadian Twitter users. We collected thi
 <li><b>Format:</b> SQL</li>
 </ul>
 
-<b>P.S: If you use this data for the academic purpose, please do not forget to cite/include this link in your paper.</b>
+<b>P.S: If you use any of these datasets for the academic purpose, please do not forget to cite/include this page's link in your paper.</b>
 
 1) We could only get last 100 friends and followers of a user because of the strict <a href="https://developer.twitter.com/en/docs/basics/rate-limiting.html">API limits</a>.
 2) Twitter does not expose users' gender information. We used API gender-api.com to get genders from names.
