@@ -1,5 +1,5 @@
 # Canada---Twitter-users-dataset
-Data is crucial part of research, but not always very easy to find, especially in huge volume. In order to facilitate the academic research, I share two datasets <i>Twitter-CAD-Users</i> and <i>Twitter-CAD-Tweets</i>; they were collected for my thesis in <a href="http://uottawa.ca" target="_blank">University of Ottawa</a>.
+Data is crucial part of research, but not always very easy to find, especially in huge volume. In order to facilitate the academic research, I share two datasets <i>Twitter-CAD-Users</i> and <i>Twitter-CAD-Tweets</i>; they were collected for my thesis in <a href="http://uottawa.ca" target="_blank">University of Ottawa</a>. The datasets can be downloaded from the public Dropbox folder <a href="https://www.dropbox.com/sh/a58ac7638cjrnv2/AABmbU-UUPM34kYo2YSjRIe4a?dl=0">here</a>.
 
 Both datasets contain users — and tweets — from census metropolitan areas and agglomerations in Canada with population more than 100.000. The full list of CMAs and CAs can be found <a href="https://en.wikipedia.org/wiki/List_of_census_metropolitan_areas_and_agglomerations_in_Canada">here</a>.
 
