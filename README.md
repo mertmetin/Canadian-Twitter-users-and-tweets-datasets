@@ -22,7 +22,7 @@ Twitter-CAD-Tweets from Canadian Twitter users. We collected this dataset to geo
 <ul>
 <li><b>Collection period:</b> March 25 and April 5, 2019</li>
 <li><b>Number of tweets:</b> 40.455
-<li><b>Size:</b> 31.5 MB</b></li>
+<li><b>Size:</b> 73.57 MB</b></li>
 <li><b>Format:</b> SQL</li>
 </ul>
 
