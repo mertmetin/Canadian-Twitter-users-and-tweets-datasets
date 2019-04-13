@@ -1,33 +1,32 @@
 # Canada---Twitter-users-dataset
+Data is crucial part of research, but not always very easy to find, especially in huge volume. In order to facilitate the academic research, I share two datasets <i>Twitter-CAD-Users</i> and <i>Twitter-CAD-Tweets</i>; they were collected for my thesis in <a href="http://uottawa.ca" target="_blank">University of Ottawa</a>.
 
-I am aware that data is crucial part of research, but not always very easy to find, especially in huge volume. In order to facilitate the academic research, I share this corpus which was collected as part of my thesis in <a href="http://uottawa.ca" target="_blank">University of Ottawa</a>.
+Both datasets contain users — and tweets — from census metrpolitan areas and agglomerations in Canada with population more than 100.000. The full list of CMAs and CAs can be found <a href="https://en.wikipedia.org/wiki/List_of_census_metropolitan_areas_and_agglomerations_in_Canada">here</a>.
 
-The corpus consist of more than 65K of Twitter users with various type of information including user id, screen name, name, gender, timezone, user declared location, city, province and bounding box. (Please note that Twitter doesn't provide gender information of user through the standard API. I used <a href="http://api.namsor.com/" target="_blank">Namsor API</a> to detect the gender from the name.) 
+<h2>Twitter-CAD-Users</h2>
+Twitter-CAD-Users — as the name suggests – includes Canadian Twitter users with their tweets, up to last 100 friends and followers and bunch of metadata information about users (e.g. tweets, friends and followers count and gender). We collected this dataset to geolocate users from their tweets as well as their social graph (i.e. friends and followers). Furthermore, each user tagged with a location (i.e. groundtruth location) which is the user declared location in Twitter profile. 
 
-The users in dataset are all around the country, but mainly from the 8 biggest cities in Canada. The more details and the distrubtion can be found below:
-
-<h2> Dataset specifications </h2>
 <ul>
-<li><b>Version:</b> 1.0 </li>
-<li><b>Collection period:</b> September 1 and January 12</li>
-<li><b>Number of users:</b> 71.963
-<li><b>Size:</b> 31.5 MB</b></li>
-<li><b>Format:</b> JSON</li>
+<li><b>Collection period:</b> January 10 and January 25, 2019</li>
+<li><b>Total number of users:</b> 420
+<li><b>Total number of tweets:</b> 935.512
+<li><b>Total number of friends:</b> 50.252
+<li><b>Total number of followers:</b> 50.122
+<li><b>Size:</b> 218.2 MB</b></li>
+<li><b>Format:</b> SQL</li>
 </ul>
 
-<h2>Distribution of the users by city</h2>
-<table>
-<tr><th>City</th><th>Number of users</th></tr>
-<tr><td>Vancouver</td><td>9601</td></tr>
-<tr><td>Toronto</td><td>7849</td></tr>
-<tr><td>Montréal</td><td>8869</td></tr>
-<tr><td>Ottawa</td><td>7926</td></tr>
-<tr><td>Edmonton</td><td>6038</td></tr>
-<tr><td>Winnipeg</td><td>4877</td></tr>
-<tr><td>Calgary</td><td>3604</td></tr>
-<tr><td>Halifax</td><td>903</td></tr>
-</table>
+<h2>Twitter-CAD-Tweets</h2>
+Twitter-CAD-Tweets from Canadian Twitter users. We collected this dataset to geolocate tweets from their context. Each tweet is geotagged with a latitute and longitute pairs (i.e. bounding box).
 
+<ul>
+<li><b>Collection period:</b> March 25 and April 5, 2019</li>
+<li><b>Number of tweets:</b> 40.455
+<li><b>Size:</b> 31.5 MB</b></li>
+<li><b>Format:</b> SQL</li>
+</ul>
 
 <b>P.S: If you use this data for the academic purpose, please do not forget to cite/include this link in your paper.</b>
 
+1) We could only get last 100 friends and followers of a user because of the strict <a href="https://developer.twitter.com/en/docs/basics/rate-limiting.html">API limits</a>.
+2) Twitter does not expose users' gender information. We used API gender-api.com to get genders from names.
